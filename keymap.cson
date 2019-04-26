@@ -1,0 +1,26 @@
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'k': 'vim-mode-plus:move-up-screen'
+  'j': 'vim-mode-plus:move-down-screen'
+  'ctrl-shift-space': 'datatip:toggle'
+
+'.autocomplete-active':
+  'ctrl-k': 'core:move-up'
+  'ctrl-j': 'core:move-down'
+
+'atom-text-editor.vim-mode-plus.insert-mode:not(.autocomplete-active)':
+  'ctrl-n': 'autocomplete-plus:activate'
+  'ctrl-p': 'autocomplete-plus:activate'
+
+'.command-palette':
+  'ctrl-k': 'core:move-up'
+  'ctrl-j': 'core:move-down'
+
+
+'.fuzzy-finder':
+  'ctrl-k': 'core:move-up'
+  'ctrl-j': 'core:move-down'
+
+
+'atom-text-editor':
+  'ctrl-l': 'pane:show-next-item'
+  'ctrl-h': 'pane:show-previous-item'
